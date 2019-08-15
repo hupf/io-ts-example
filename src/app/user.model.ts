@@ -8,3 +8,5 @@ const User = t.type({
 });
 type User = t.TypeOf<typeof User>;
 export { User };
+
+export type UserProps = t.PropsOf<typeof User>;

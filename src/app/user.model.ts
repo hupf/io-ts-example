@@ -6,7 +6,7 @@ const User = t.type({
   username: t.string,
   email: t.string
 });
-type User = t.TypeOf<typeof User>;
-export { User };
 
-export type UserProps = t.PropsOf<typeof User>;
+type User = t.TypeOf<typeof User>;
+
+export { User };
